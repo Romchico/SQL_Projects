@@ -3,16 +3,18 @@ Then I created a database.
 
 
 /* Then I created a table into this database: */
-CREATE TABLE traindata(
-train_no SERIAL PRIMARY KEY,
-station_code VARCHAR(10),
-station_name VARCHAR(50),
-arrival_time TIME,
-departure_time TIME,
-distance INTEGER,
-source_station VARCHAR(10),
-source_station_name VARCHAR(50),
-destination_station VARCHAR(10),
+CREATE TABLE traindetails(
+train_no VARCHAR(100),
+station_code VARCHAR(100),
+station_name VARCHAR(100),
+arrival_time VARCHAR(100),
+departure_time VARCHAR(100),
+distance VARCHAR(100),
+source_station VARCHAR(100),
+source_station_name VARCHAR(100),
+destination_station VARCHAR(100),
 destination_station_name VARCHAR(100)
-)
+)             
+
+SELECT * FROM traindetails
 
