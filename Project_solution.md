@@ -41,4 +41,3 @@ AND departure_time IN ('09:00:00','10:00:00','11:00:00')
 ORDER BY departure_time ASC
 
 
-
