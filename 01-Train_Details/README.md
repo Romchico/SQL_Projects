@@ -1,5 +1,5 @@
 # Railway Management System
-Taken from https://github.com/aaryanrr/RailwayMGMT
+The csv file is based on: https: https://github.com/aaryanrr/RailwayMGMT/tree/master/Assets
 
 I used PostgreSQL
 
